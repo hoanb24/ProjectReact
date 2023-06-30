@@ -144,11 +144,7 @@ a:focus {
 }
 
 /* end slider section */
-.nav_section {
-  position: absolute;
-  margin-top: -500px;
-  margin-left: 650px;
-}
+
 
 .nav_section .custom_nav2 .custom_nav-container {
   padding: 10px 0;
@@ -751,20 +747,4 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
-
-.contact-icon{
-  object-fit: cover;
-  height: 50px;
-  width: 60px;
-}
-
-
-
-/* Search Bar */
-
-.search_bar{
-  position: absolute;
-  margin-top: -550px;
-
-}
 
