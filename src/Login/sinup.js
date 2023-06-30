@@ -38,7 +38,7 @@ function RegistrationForm() {
 
       if (response.ok) {
         alert('Đăng ký thành công!');
-        window.location.href = 'http://localhost:3000/signup';
+        window.location.href = 'https://project-react-2vld99xgp-hoanbui24-passerellesn.vercel.app/signup';
       } else {
         console.log('Registration failed.');
       }
