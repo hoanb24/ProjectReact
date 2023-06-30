@@ -216,3 +216,8 @@ img {
 .main .wrapper .method-action:hover {
   background: var(--color-light);
 }
+
+.iconc {
+  height: 30px;
+  width: 30px;
+}

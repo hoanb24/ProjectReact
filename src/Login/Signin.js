@@ -126,7 +126,7 @@ export default class Signin extends Component {
               <div className="method-control">
                 <a href="#" className="method-action">
                   <i className="ion ion-logo-google">
-                    <img src="images/google.png" width={16} height={16} />
+                    <img src="images/google.png" className="iconc"/>
                   </i>
                   <span>Sign in with Google</span>
                 </a>
@@ -135,7 +135,7 @@ export default class Signin extends Component {
                 <a href="#" className="method-action">
                   <i className="ion ion-logo-facebook">
                     {" "}
-                    <img width={16} height={16} src="images/facebook.png" />
+                    <img  src="images/facebook.png" className="iconc"/>
                   </i>
                   <span>Sign in with Facebook</span>
                 </a>
@@ -143,7 +143,7 @@ export default class Signin extends Component {
               <div className="method-control">
                 <a href="#" className="method-action">
                   <i className="ion ion-logo-apple">
-                    <img width={16} height={16} src="images/apple-logo.png" />
+                    <img src="images/apple-logo.png"  className="iconc"/>
                   </i>
                   <span>Sign in with Apple</span>
                 </a>
