@@ -32,7 +32,7 @@ const Cart = () => {
   };
 
   const handleBack = () => {
-    window.location.href = "http://localhost:3000/";
+    window.location.href = "https://project-react-2vld99xgp-hoanbui24-passerellesn.vercel.app/";
   }
   
   if(isEmpty){ 

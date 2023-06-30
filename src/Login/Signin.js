@@ -27,7 +27,7 @@ export default class Signin extends Component {
       localStorage.setItem('user', JSON.stringify({ email, password }));
   
       // Chuyển hướng đến trang admin
-      window.location.href = 'http://localhost:3000/admin';
+      window.location.href = 'https://project-react-2vld99xgp-hoanbui24-passerellesn.vercel.app/admin';
     } else {
       try {
         const response = await axios.get('https://643918404660f26eb1aa3099.mockapi.io/user');
@@ -39,7 +39,7 @@ export default class Signin extends Component {
         if (foundUser) {
           alert('Đăng nhập thành công!');
           localStorage.setItem('user', JSON.stringify(foundUser));
-          window.location.href = 'http://localhost:3000';
+          window.location.href = 'https://project-react-2vld99xgp-hoanbui24-passerellesn.vercel.app/';
         } else {
           alert('Đăng nhập thất bại!');
         }
@@ -62,7 +62,7 @@ export default class Signin extends Component {
                 New user?{" "}
                 <span>
                   <a
-                    href="http://localhost:3000/register"
+                    href="https://project-react-2vld99xgp-hoanbui24-passerellesn.vercel.app/register"
                     className="text text-links"
                   >
                     Create an account
